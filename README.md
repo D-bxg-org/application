@@ -2,13 +2,13 @@
  * @Author: D_bxg
  * @Date: 2021-02-08 15:32:56
  * @LastEditors: D_bxg
- * @LastEditTime: 2021-02-10 15:22:22
+ * @LastEditTime: 2021-02-10 15:23:20
  * @Description: file content
  * @FilePath: \application\README.md
 -->
 # 依赖说明
 
-```json
+```js
 "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",//create-react-app脚手架自带
     "@testing-library/react": "^11.1.0",//create-react-app脚手架自带
