@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Nav from "../../components/Nav";
-import "./index.min.css"
+import "./index.min.css";
 
 export default class Demo extends Component {
   render() {

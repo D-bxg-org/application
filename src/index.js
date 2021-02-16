@@ -11,7 +11,7 @@ import store from "./redux/store"; // redux的store部分，全局获取
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* 配置总状态 */}
+    {/* 配置总状态，所有容器组件都可以接收到store */}
     <Provider store={store}>
       {/* 配置总路由 */}
       <BrowserRouter>
