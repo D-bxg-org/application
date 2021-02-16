@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-export default class Test extends Component {
+export default class TestPages extends Component {
   render() {
     return (
       <div>
