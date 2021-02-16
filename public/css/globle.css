@@ -1,0 +1,15 @@
+/* 
+    初始化
+*/
+:root{}
+
+/* 
+    特定类
+*/
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
