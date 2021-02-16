@@ -12,8 +12,8 @@ export default class Nav extends Component {
           </Link>
           <div className="nav__search"></div>
           <div className="nav__items">
-            <Link to="/demo">
-              <div className="nav__demo">demo</div>
+            <Link to="/space">
+              <div className="nav__demo">space</div>
             </Link>
           </div>
         </section>

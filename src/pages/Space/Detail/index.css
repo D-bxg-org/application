@@ -1,17 +1,17 @@
-.demo {
+.detail {
   width: 100vw;
-  height: 100vh;
+  height: 92vh;
 }
 
-.demo__aside {
+.detail__aside {
   flex: 4;
 }
 
-.demo__content {
+.detail__content {
   flex: 20;
 }
 
-.demo__section {
+.detail__section {
   width: 100vw;
   height: 92vh;
   display: flex;
