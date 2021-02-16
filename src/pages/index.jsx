@@ -6,7 +6,7 @@ import Loding from "../containers/Loding";
 // 懒加载页面
 const Home = lazy(()=>import("./Home"));
 const TestPages = lazy(()=>import("./TestPages"));
-const Demo = lazy(()=>import("./Demo"));
+const Space = lazy(()=>import("./Space"));
 
 export default class pages extends Component {
   render() {
@@ -16,7 +16,7 @@ export default class pages extends Component {
         <Suspense fallback={<Loding />}>
           <Switch>
             <Route path="/test-pages" component={TestPages} />
-            <Route path="/demo" component={Demo} />
+            <Route path="/space" component={Space} />
             <Route path="/" component={Home} />
           </Switch>
         </Suspense>
