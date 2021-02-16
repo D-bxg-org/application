@@ -1,0 +1,21 @@
+.nav {
+  width: 100vw;
+  min-height: 8vh;
+  background: red;
+  &__items {
+      flex: 10;
+  }
+  &__logo {
+    flex: 4;
+
+  }
+  &__search {
+    flex: 10;
+
+  }
+  &__section {
+    width: 100%;
+    min-height:8vh;
+    display: flex;
+  }
+}
