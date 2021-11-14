@@ -8,7 +8,7 @@ export default class Home extends Component {
       <div className="">
         <Nav></Nav>
         我是主页
-        <Link to="/test">
+        <Link to="/test-pages">
           <button>点我到test页面</button>
         </Link>
       </div>
